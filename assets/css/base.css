@@ -1,0 +1,205 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color-old: #ccc;
+    --text-color: #333;
+    --yellow-color: #fdcf3f;
+    --header-height: 120px;
+    --header-navbar-height: 43px;
+    --notify-header-height: 44px;
+    --notify-footer-height: 36px;
+    --primary-color: #fe5430;
+    --header-sort-bar-height: 46px;
+    --header__with-search-height: calc(var(--header-height) - var(--header-navbar-height));
+    --header__search-height: 42px;
+    --slider-height: 250px;
+    
+}
+
+.name-account{
+    font-weight: 400 !important;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+    
+}
+
+.grid__column-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.66667%;
+
+}
+
+.grid__column-2-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.grid__column-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.33334%;
+}
+
+.btn--primary{
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    color: var(--white-color) !important;
+    text-align: center;
+    
+}
+
+
+
+.btn--primary:hover{
+    background-color: #f66e51 !important;
+}
+
+/* Phần dùng cho sản phẩm */
+
+.home-product__item-active-rating.rating-1 i:first-child{
+    color: var(--yellow-color);
+}
+
+
+
+.home-product__item-active-rating.rating-2 i:first-child{
+    color: var(--yellow-color);
+}
+
+.home-product__item-active-rating.rating-2 i:nth-child(2){
+    color: var(--yellow-color);
+}
+
+.home-product__item-active-rating.rating-3 i:first-child{
+    color: var(--yellow-color);
+}
+
+.home-product__item-active-rating.rating-3 i:nth-child(2){
+    color: var(--yellow-color);
+}
+
+.home-product__item-active-rating.rating-3 i:nth-child(3){
+    color: var(--yellow-color);
+}
+
+.home-product__item-active-rating.rating-4 i{
+    color: var(--yellow-color);
+}
+.home-product__item-active-rating.rating-4 i:last-child{
+    color: #ccc;
+}
+
+.home-product__item-active-rating.rating-5 i{
+    color: var(--yellow-color);
+}
+/* Hết phần xử lí rating */
+
+
+/* Phần chung cho Modal */
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.modal__body{
+    margin: auto;
+    z-index: 1;
+    
+}
+
+
+
+/* Phần đầu */
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes headerNotifyFadeIn {
+    from{
+        
+        transform: scale(0);
+        opacity: 0;
+
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+        
+
+    }
+}
+
+@keyframes fadeInTop{
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes growth{
+    from{
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
+

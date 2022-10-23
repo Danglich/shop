@@ -1,0 +1,8 @@
+1. Vị trí
+2. Kích thước
+3. Mùa sắc
+4. Hình dáng
+
+!. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đến chi tiết

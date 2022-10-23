@@ -1,0 +1,131 @@
+/* Mobile */
+@media (max-width: 46.188em){
+
+    :root{
+        --header-height: 60px;
+        --header-navbar-height: 0px;
+    }
+
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .header__logo{
+        flex: 1;
+        text-align: center;
+    }
+
+     /* Phần header */
+
+
+     /* Phần search */
+     
+    .header__list-mobile{
+        display: block;
+    
+    
+    }
+
+    .header__search-mobile{
+        display: block;
+    
+    }
+
+    .pagination__link{
+        font-size: 1.6rem;
+        min-width: 25px;
+    }
+
+    .home-product{
+        margin: 0 4px;
+    }
+
+    .footer__body{
+        margin: 0 30px 36px 30px;
+    }
+
+    
+
+    .home-product__item-price-current{
+        margin: 2px 0 0 0;
+        font-size: 1.8rem;
+    }
+
+    .home-product__item-price-old{
+        font-size: 1.8rem;
+    }
+
+    .footer__heading{
+        text-align: center;
+    }
+
+    .footer__item-link{
+        text-align: center;
+    }
+}
+
+/* Tablet và Mobile */
+@media (max-width: 63.938em){
+    
+
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+
+    /* Phần header */
+    .header__cart {
+        width: 80px;
+    }
+
+    .header__cart-container{
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        width: 100%;
+        padding: 0 calc((100% - 644px)/2);
+    }
+
+    .header__cart-container::before{
+        display: none;
+    }
+
+    .header__cart-quantity-items{
+        right: -18px;
+    }
+
+    .header__cart-item-close{
+        background-color: var(--primary-color);
+        color: #fff;
+        border-radius: 2px;
+    }
+
+    .header-sort-bar{
+        display: flex;
+    }
+
+    .container{
+        margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
+        padding: 16px 0;
+    }
+
+    .nav-category-mobile{
+        display: block;
+    
+    }
+}
+
+/* Tablet*/
+@media (min-width: 46.25em) and (max-width: 63.938em){
+    :root{
+        --header-height: 68px;
+        --header-navbar-height: 0px;
+    }
+    
+    .hide-on-tablet{
+        display: none;
+    }
+
+     /* Phần header */
+
+    
+}
